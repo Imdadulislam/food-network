@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    color:rgb(88, 98, 109) ;
+    line-height: 100px;
+}
+h3{
+    font-size: 40px;
+}
+span{
+    color: rgb(233, 112, 69);
+}
+p{
+    font-size: 25px;
+    color: rgb(110, 115, 121);
+}
+a{
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px 50px;
+    background-image: linear-gradient(to right, #FF8040,#FF4500);
+    border-radius: 40px;
+}
+.margin{
+    margin-top: 150px;
+}
+.Container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-container{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-container img{
+    width: 100%;
+}
+.banner{
+    background-image: url(image/Frame\ 57.jpg);
+}
+.recepie-container{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    margin-top: 100px;
+}
+.recepie-title{
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.recipie{
+    margin-top: 50px;
+    box-shadow: 10px 20px 40px silver;
+    border-radius: 20px;
+    padding: 0px;
+    width: 450px;
+    margin-right:2%;
+    margin-left:2% ;
+}
+.recipie img{
+    margin-top: 25px;
+    width: 400px;
+    border-radius: 20px;
+}
+.followers{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    margin-top: 100px;
+    box-shadow: 10px 20px 40px silver;
+    border-radius: 20px;
+    margin-right:11%;
+    margin-left:11%;
+    
+}
+.followers div{
+    padding-left:5%;
+    padding-right:5%;
+}
+footer{
+    margin-top: 130px;
+    text-align: center;
+    padding: 60px;
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+}
+
